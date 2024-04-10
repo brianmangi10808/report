@@ -1,7 +1,7 @@
 
 
 .report-container{
-    background:#9ef01a ;
+    background:#caf0f8 ;
     margin: auto;
     padding:25px;
     display: flex;
@@ -10,11 +10,50 @@
     text-align:center;
     font-family:'Arial';
     color:black;
-    /*border: solid black;*/
+    
     border-radius:8px;
     box-shadow: 3px  6px 14px rgba(0, 0, 0, 0.7);
 }
 .report{
     display: flex;
     flex-direction: column;
+}
+.report-form{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    /* background: #ecebeb; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 3px  6px 14px rgba(0, 0, 0, 0.3);
+
+}
+input{
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+    width: 100%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: .3s ease;
+}
+.btn-submit{
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    background: rgb(23, 162, 136); /* Green */
+    background: linear-gradient(90deg, rgba(23, 162, 136, 1) 0%, rgba(12, 19, 239, 1) 100%);
+}
+textarea {
+    padding:7px ;
+    font-weight: 600;
 }

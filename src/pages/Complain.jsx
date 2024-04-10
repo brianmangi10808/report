@@ -1,10 +1,29 @@
-
 import React from 'react'
+import data from '../../db.json';
 
 const Complain = () => {
+
+    console.log(data);
+
+
   return (
+   
+
     <div>
-      complains
+       <h1>Complaints</h1>
+      
+       <ul>
+        {data.reports.map((report) => (
+          <li key={report.id}>
+            <p>Name: {report.name}</p>
+            <p>Area to report: {report.areaToReport}</p>
+            <p>Year: {report.year}</p>
+            <p>Experience: {report.experience}</p>
+          </li>
+        ))}
+      </ul>
+     
+
     </div>
   )
 }
