@@ -1,0 +1,19 @@
+
+
+.data-container{
+    background-color: #caf0f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin:20px ;
+   box-shadow: 2px 4px 6px rgba(0,0,0,.3);
+   padding: 3rem;
+
+}
+.data-container p{
+    font-size: 18px;
+    font-weight: 600;
+    
+    line-height: 1.5em;
+    
+}

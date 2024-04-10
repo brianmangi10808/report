@@ -78,6 +78,7 @@ const Report = () => {
             placeholder='Write your experience here ...'
             value={formData.experience}
             onChange={handleChange}
+            name='experience'
           ></textarea>
 
           <button type='submit' className='btn-submit'>

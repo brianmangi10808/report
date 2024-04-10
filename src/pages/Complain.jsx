@@ -1,5 +1,6 @@
 import React from 'react'
 import data from '../../db.json';
+import './Complain.css'
 
 const Complain = () => {
 
@@ -14,7 +15,7 @@ const Complain = () => {
       
        <ul>
         {data.reports.map((report) => (
-          <li key={report.id}>
+          <li  className='data-container' key={report.id}>
             <p>Name: {report.name}</p>
             <p>Area to report: {report.areaToReport}</p>
             <p>Year: {report.year}</p>
