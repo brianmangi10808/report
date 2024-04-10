@@ -1,0 +1,28 @@
+
+.contact{
+    background: #ddd;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-container{
+    background-color: #caf0f8; 
+    box-shadow: 2px 4px 6px rgba(0,0,0,.3);
+    padding: 6rem;
+   text-align: center;
+    
+}
+.contact-container  h1 {
+      font-size: 2.3em;
+       color:#5c97bf ;
+       margin-bottom: 16px;
+}
+.contact-container  p{
+    line-height: 1.5;
+    max-width: 70%;
+    margin: auto;
+    font-size: 17px;
+    font-weight: 700;
+}

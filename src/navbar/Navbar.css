@@ -1,0 +1,19 @@
+
+
+.navbar{
+    background: #8ecae6;
+    padding: 10px;
+   height: auto;
+}
+
+.report{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.left-nav a{
+   margin-right:50px;
+   padding: 15px;
+  
+}
