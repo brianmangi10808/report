@@ -1,7 +1,9 @@
 
 
 .homepage{
-    background: #ddd;
+    background: url('../assets/back.jpg') no-repeat center;
+   background-size: cover;
+
     height: 100vh;
   
 }

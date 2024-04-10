@@ -20,6 +20,42 @@
       "name": "peter brian mwangi",
       "year": 2390,
       "experience": ""
+    },
+    {
+      "id": "2d4d",
+      "areaToReport": "gataka",
+      "name": "kangi",
+      "year": 457,
+      "experience": ""
+    },
+    {
+      "id": "1f9c",
+      "areaToReport": "molo",
+      "name": "kangi",
+      "year": 2905,
+      "experience": ""
+    },
+    {
+      "id": "8eb2",
+      "areaToReport": "gataka",
+      "name": "maxwel",
+      "year": 666,
+      "experience": ""
+    },
+    {
+      "id": "2f30",
+      "areaToReport": "banana",
+      "name": "masinde",
+      "year": 2003,
+      "experience": ""
+    },
+    {
+      "id": "397f",
+      "areaToReport": "valley",
+      "name": "leah mwangi",
+      "year": 1999,
+      "experience": "",
+      "": "e"
     }
   ]
 }
