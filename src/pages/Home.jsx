@@ -9,12 +9,12 @@ const Home = () => {
       <div className="btn-container">
      
 
-      <NavLink to="/" className="btn" >Report</NavLink>
-      <NavLink to="/" className="btn" >View Complains</NavLink>
+      <NavLink to="/Report" className="btn" >Report</NavLink>
+      <NavLink to="/Complain" className="btn" >View Complains</NavLink>
       </div>
    
     </div>
   )
 }
 
-export default Home
+export default Home               
