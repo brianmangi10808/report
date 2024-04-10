@@ -1,5 +1,6 @@
 
 .about{
+    
     background: #fdf0d5;
     height: 100vh;
     display: flex;
@@ -11,6 +12,8 @@
 
 }
 .about-container{
+    margin-top: 20px;
+    height: auto;
     width: 70%;
    background: #caf0f8;
    border-radius: 10px;
