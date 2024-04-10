@@ -1,0 +1,20 @@
+
+
+.report-container{
+    background:#9ef01a ;
+    margin: auto;
+    padding:25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:center;
+    font-family:'Arial';
+    color:black;
+    /*border: solid black;*/
+    border-radius:8px;
+    box-shadow: 3px  6px 14px rgba(0, 0, 0, 0.7);
+}
+.report{
+    display: flex;
+    flex-direction: column;
+}
