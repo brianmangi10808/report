@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Home = () => {
   return (
     <div  className='homepage'>
-       <h1>Welcome to the Report page!</h1>
+       <h2>Welcome to the Report page!</h2>
       <div className="btn-container">
      
 

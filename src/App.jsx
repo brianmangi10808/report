@@ -7,6 +7,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Report from './pages/Report';
 import Complain from './pages/Complain';
+import Emergency from './pages/Emergency';
 
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
           <Route path="/Contact" element={<Contact/>} />
           <Route path="/Report" element={<Report/>} />
           <Route path="/Complain" element={<Complain/>} />
+          <Route path="/Emergency" element={<Emergency/>} />
           {/* Define other routes using element prop */}
         </Routes>
      </div>
